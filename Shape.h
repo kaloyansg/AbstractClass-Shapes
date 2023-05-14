@@ -4,7 +4,7 @@ class Shape
 public:
 	virtual double getPerimeter() const = 0;
 
-	virtual ~Shape() = 0;
+	virtual ~Shape() = default;
 };
 
 class Triangle : public Shape
